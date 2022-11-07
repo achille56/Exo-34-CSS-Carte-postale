@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    padding: 10rem;
+}
+
+.courrier{
+    max-height: 600px;
+    display: inline-block;
+    right: 20px;
+    background-color: coral;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 8rem;
+    box-shadow: 6px 6px 3px black;
+}
+
+.courrier p{
+    width: 40%;
+}
+
+.timbre{
+    width: 80px;height: 100px;
+    border: 2px solid black;
+    position: relative;
+    left: 49rem;
+    top: -15rem;
+}
+
+.code_postale {
+    border: 2px solid black;
+    width: 30px;height: 40px;
+    position: relative;
+
+    display: inline-block;
+    right: -30rem;
+    bottom: -7rem;
+}
+
+.traitH{
+    border: 1px solid black;
+    height: 1px;width: 250px;
+    margin: 40px;
+
+    position: relative;
+    top: -140px;
+    right: -440px;
+}
+
+.traitV{
+    border: 1px solid black;
+    height: 550px;width: 2px;
+
+    position: relative;
+    right: -400px;
+    top: -580px;
+}
+
+
+
